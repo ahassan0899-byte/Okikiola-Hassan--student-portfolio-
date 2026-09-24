@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Okikiola Hassan Arowoshola</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Okikiola<span>.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Me</h1>
+    <p class="subtitle">Fill in the form below to send a message.</p>
+
+    <div class="contact-wrapper">
+      <div id="error-message" class="alert-box error" style="display: none;"></div>
+      <div id="success-message" class="alert-box success" style="display: none;"></div>
+
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="fullname">Full Name *</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Okikiola Arowoshola">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="example@mail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" placeholder="08012345678">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+        </div>
+
+        <button type="submit" class="btn primary-btn">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Okikiola Hassan Arowoshola | COS 106 Term Project</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
