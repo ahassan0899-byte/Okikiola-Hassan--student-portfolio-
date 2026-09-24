@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Okikiola Hassan Arowoshola</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Okikiola<span>.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>About Me</h1>
+
+    <section class="about-card">
+      <h2>🎓 Educational Background</h2>
+      <p>Currently studying Computer Science, focusing on Web Technologies, Software Engineering, and Database Management Systems.</p>
+    </section>
+
+    <section class="about-card">
+      <h2>🎯 Career Aspirations</h2>
+      <p>My goal is to become a Full-Stack Software Engineer building cloud-native, scalable, and responsive user experiences.</p>
+    </section>
+
+    <section class="about-card">
+      <h2>💻 Technical Skills</h2>
+      <table class="skills-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Technologies</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Frontend</td>
+            <td>HTML5, CSS3, JavaScript (ES6+)</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Version Control</td>
+            <td>Git, GitHub</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>Layouts</td>
+            <td>Flexbox, CSS Grid, Responsive Design</td>
+            <td>Advanced</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="about-card">
+      <h2>🎨 Hobbies and Interests</h2>
+      <ul>
+        <li>Building creative web applications</li>
+        <li>Solving coding challenges</li>
+        <li>Reading technology blogs</li>
+        <li>Playing strategic board games</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Okikiola Hassan Arowoshola | COS 106 Term Project</p>
+  </footer>
+
+</body>
+</html>
