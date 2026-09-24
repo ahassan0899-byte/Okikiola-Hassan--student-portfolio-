@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Okikiola Hassan Arowoshola</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Okikiola<span>.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="planner.html">Academic Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>My Academic Projects</h1>
+    <p class="subtitle">A showcase of practical projects completed during my studies.</p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <img src="https://via.placeholder.com/350x200?text=Student+Portfolio" alt="Student Portfolio">
+        <h3>1. Student Portfolio Website</h3>
+        <p>A multi-page responsive web project for COS 106 featuring dynamic navigation, embedded media, and CSS flexbox styling.</p>
+        <p><strong>Tech Stack:</strong> HTML5, CSS3, JS</p>
+        <a href="index.html" class="btn primary-btn">View Home</a>
+      </article>
+
+      <article class="project-card">
+        <img src="https://via.placeholder.com/350x200?text=Academic+Planner" alt="Academic Planner">
+        <h3>2. Academic Task Planner</h3>
+        <p>An interactive JavaScript web utility that allows students to add, mark complete, and delete personal academic tasks.</p>
+        <p><strong>Tech Stack:</strong> JavaScript DOM, CSS</p>
+        <a href="planner.html" class="btn primary-btn">Try Demo</a>
+      </article>
+
+      <article class="project-card">
+        <img src="https://via.placeholder.com/350x200?text=Contact+Validator" alt="Form Validator">
+        <h3>3. Client-Side Form Validator</h3>
+        <p>A custom form validation script ensuring correct input handling, email regex checks, and numeric phone verification.</p>
+        <p><strong>Tech Stack:</strong> HTML Forms, JS Regex</p>
+        <a href="contact.html" class="btn primary-btn">Test Form</a>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Okikiola Hassan Arowoshola | COS 106 Term Project</p>
+  </footer>
+
+</body>
+</html>
