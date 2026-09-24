@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner | Okikiola Hassan Arowoshola</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Okikiola<span>.dev</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" class="active">Academic Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Interactive Academic Planner</h1>
+    <p class="subtitle">Manage your study tasks, coursework, and deadlines.</p>
+
+    <div class="planner-wrapper">
+      <form id="planner-form">
+        <input type="text" id="task-input" placeholder="Enter task (e.g., Submit COS 106 Project)...">
+        <button type="submit" class="btn primary-btn">Add Task</button>
+      </form>
+
+      <ul id="task-list" class="task-list"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Okikiola Hassan Arowoshola | COS 106 Term Project</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
